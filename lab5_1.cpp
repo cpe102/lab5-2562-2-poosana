@@ -8,6 +8,7 @@ int main(){
 	cin >> N;
 	string name[N];
 	int age[N];
+	
 	int i=0;
 	while(i < N){
 	cout << "Name of student "<< i+1 << " =";
@@ -16,6 +17,7 @@ int main(){
 	cin >> age[i];
 	i++;
 	}
+
 	i = 0;
 	int key;
 	cout << "--------------------------------------\n";
